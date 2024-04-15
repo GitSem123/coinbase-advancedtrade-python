@@ -1,8 +1,8 @@
 import os
 from coinbase_advanced_trader.cb_auth import CBAuth
 
-API_KEY = None
-API_SECRET = None
+API_KEY = "organizations/e2cdddcb-c4f3-42dd-ba5e-8f943047db1b/apiKeys/e950e900-cae0-488c-9d48-fdc880de447a"
+API_SECRET = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIFOJE5qA2iv1MU24KkUP3F0nXZP9pkIGdeQsXFs00Uz5oAoGCCqGSM49\nAwEHoUQDQgAE9qie+qyGa+7rRl9thCATWCL8pDnJL878rXpHkPpUcpHlxMA5EH2h\nE1+WpyQRGEr/i1vpsH3syDpnrmESo5YWaA==\n-----END EC PRIVATE KEY-----\n"
 
 # Default price multipliers for limit orders
 BUY_PRICE_MULTIPLIER = 0.995
